@@ -479,7 +479,7 @@ Example::
 
 .. versionadded:: 0.6.1
 
-Clicks on the first DOM element found containing ``label`` text. Optionaly ensures that the element node name is ``tag``::
+Clicks on the first DOM element found containing ``label`` text. Optionally ensures that the element node name is ``tag``::
 
     // <a href="...">My link is beautiful</a>
     casper.then(function() {
